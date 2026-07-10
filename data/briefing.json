@@ -1,0 +1,191 @@
+{
+  "generated_at_jst": "2026-07-10T11:17:29+09:00",
+  "generated_at_utc": "2026-07-10T02:17:29+00:00",
+  "location": {
+    "name": "八王子",
+    "lat": 35.66,
+    "lon": 139.32
+  },
+  "weather": {
+    "source": "open-meteo + JMA",
+    "daily": [
+      {
+        "date": "2026-07-10",
+        "wday": "金",
+        "tmax": 30.0,
+        "tmin": 20.7,
+        "pop": 0,
+        "code": 1,
+        "label": "晴れ"
+      },
+      {
+        "date": "2026-07-11",
+        "wday": "土",
+        "tmax": 29.7,
+        "tmin": 20.9,
+        "pop": 14,
+        "code": 3,
+        "label": "曇り"
+      },
+      {
+        "date": "2026-07-12",
+        "wday": "日",
+        "tmax": 26.9,
+        "tmin": 22.2,
+        "pop": 53,
+        "code": 51,
+        "label": "弱い霧雨"
+      },
+      {
+        "date": "2026-07-13",
+        "wday": "月",
+        "tmax": 30.7,
+        "tmin": 22.9,
+        "pop": 67,
+        "code": 80,
+        "label": "にわか雨"
+      },
+      {
+        "date": "2026-07-14",
+        "wday": "火",
+        "tmax": 31.0,
+        "tmin": 23.9,
+        "pop": 71,
+        "code": 51,
+        "label": "弱い霧雨"
+      },
+      {
+        "date": "2026-07-15",
+        "wday": "水",
+        "tmax": 32.1,
+        "tmin": 23.9,
+        "pop": 25,
+        "code": 51,
+        "label": "弱い霧雨"
+      },
+      {
+        "date": "2026-07-16",
+        "wday": "木",
+        "tmax": 33.3,
+        "tmin": 23.7,
+        "pop": 36,
+        "code": 95,
+        "label": "雷雨"
+      }
+    ],
+    "jma_text_tokyo": [
+      {
+        "date": "2026-07-10",
+        "text": "晴れ"
+      },
+      {
+        "date": "2026-07-11",
+        "text": "晴れ夕方からくもり"
+      },
+      {
+        "date": "2026-07-12",
+        "text": "くもり"
+      }
+    ]
+  },
+  "markets": {
+    "indices": [
+      {
+        "ticker": "^GSPC",
+        "name": "S&P 500",
+        "price": 7543.64,
+        "prev_close": 7482.71,
+        "change": 60.93,
+        "pct": 0.81
+      },
+      {
+        "ticker": "^IXIC",
+        "name": "NASDAQ総合",
+        "price": 26206.89,
+        "prev_close": 25870.65,
+        "change": 336.24,
+        "pct": 1.3
+      },
+      {
+        "ticker": "^DJI",
+        "name": "ダウ工業株30種",
+        "price": 52487.41,
+        "prev_close": 52348.39,
+        "change": 139.02,
+        "pct": 0.27
+      }
+    ],
+    "watchlist": {
+      "space": [
+        {
+          "ticker": "RDW",
+          "name": "Redwire",
+          "price": 10.47,
+          "prev_close": 10.58,
+          "change": -0.11,
+          "pct": -1.04
+        },
+        {
+          "ticker": "LUNR",
+          "name": "Intuitive Machines",
+          "price": 16.9,
+          "prev_close": 17.02,
+          "change": -0.12,
+          "pct": -0.71
+        },
+        {
+          "ticker": "RKLB",
+          "name": "Rocket Lab",
+          "price": 82.55,
+          "prev_close": 83.35,
+          "change": -0.8,
+          "pct": -0.96
+        },
+        {
+          "ticker": "ASTS",
+          "name": "AST SpaceMobile",
+          "price": 73.88,
+          "prev_close": 74.95,
+          "change": -1.07,
+          "pct": -1.43
+        }
+      ],
+      "ai_semi": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "price": 202.78,
+          "prev_close": 204.12,
+          "change": -1.34,
+          "pct": -0.66
+        },
+        {
+          "ticker": "MU",
+          "name": "Micron",
+          "price": 991.64,
+          "prev_close": 948.8,
+          "change": 42.84,
+          "pct": 4.52
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "price": 401.11,
+          "prev_close": 388.69,
+          "change": 12.42,
+          "pct": 3.2
+        },
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "price": 436.96,
+          "prev_close": 436.98,
+          "change": -0.02,
+          "pct": -0.0
+        }
+      ]
+    },
+    "movers": null
+  },
+  "errors": []
+}
