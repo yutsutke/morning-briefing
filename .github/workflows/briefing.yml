@@ -1,0 +1,38 @@
+name: morning-briefing
+
+on:
+  schedule:
+    # 05:50 JST every day = 20:50 UTC the previous day.
+    - cron: "50 20 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests yfinance
+
+      - name: Fetch briefing data
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: python scripts/fetch_briefing.py
+
+      - name: Commit if changed
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: update briefing data [skip ci]"
+          file_pattern: data/briefing.json
