@@ -1,0 +1,46 @@
+name: morning-briefing
+
+on:
+  schedule:
+    # 05:50 JST every day = 20:50 UTC the previous day.
+    # Note: GitHub cron is UTC, scheduled runs can be delayed under load,
+    # and schedules only fire on the default branch.
+    - cron: "50 20 * * *"
+  workflow_dispatch: {}   # allow manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write          # needed so the job can push the updated JSON
+
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests yfinance
+
+      - name: Fetch briefing data
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}   # optional; movers skipped if unset
+        run: python scripts/fetch_briefing.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/briefing.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update briefing data [skip ci]"
+            git push
+          fi
