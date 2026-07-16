@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-07-16T06:40:22+09:00",
-  "generated_at_utc": "2026-07-15T21:40:22+00:00",
+  "generated_at_jst": "2026-07-17T06:46:59+09:00",
+  "generated_at_utc": "2026-07-16T21:46:59+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -10,77 +10,77 @@
     "source": "open-meteo + JMA",
     "daily": [
       {
-        "date": "2026-07-16",
-        "wday": "木",
-        "tmax": 33.4,
-        "tmin": 24.1,
-        "pop": 97,
-        "code": 3,
-        "label": "曇り"
-      },
-      {
         "date": "2026-07-17",
         "wday": "金",
-        "tmax": 30.0,
-        "tmin": 24.9,
-        "pop": 96,
-        "code": 51,
-        "label": "弱い霧雨"
+        "tmax": 29.1,
+        "tmin": 24.7,
+        "pop": 100,
+        "code": 53,
+        "label": "霧雨"
       },
       {
         "date": "2026-07-18",
         "wday": "土",
-        "tmax": 28.5,
-        "tmin": 23.6,
-        "pop": 76,
+        "tmax": 28.1,
+        "tmin": 23.9,
+        "pop": 86,
         "code": 51,
         "label": "弱い霧雨"
       },
       {
         "date": "2026-07-19",
         "wday": "日",
-        "tmax": 31.5,
-        "tmin": 23.7,
-        "pop": 71,
-        "code": 51,
-        "label": "弱い霧雨"
+        "tmax": 28.9,
+        "tmin": 23.2,
+        "pop": 45,
+        "code": 2,
+        "label": "晴れ時々曇り"
       },
       {
         "date": "2026-07-20",
         "wday": "月",
-        "tmax": 33.4,
-        "tmin": 25.4,
-        "pop": 78,
-        "code": 95,
-        "label": "雷雨"
+        "tmax": 35.4,
+        "tmin": 24.2,
+        "pop": 83,
+        "code": 51,
+        "label": "弱い霧雨"
       },
       {
         "date": "2026-07-21",
         "wday": "火",
-        "tmax": 35.1,
-        "tmin": 25.6,
-        "pop": 95,
-        "code": 95,
-        "label": "雷雨"
+        "tmax": 36.9,
+        "tmin": 26.4,
+        "pop": 99,
+        "code": 96,
+        "label": "雷を伴うひょう"
       },
       {
         "date": "2026-07-22",
         "wday": "水",
-        "tmax": 28.0,
-        "tmin": 24.6,
-        "pop": 97,
+        "tmax": 34.3,
+        "tmin": 25.5,
+        "pop": 100,
+        "code": 95,
+        "label": "雷雨"
+      },
+      {
+        "date": "2026-07-23",
+        "wday": "木",
+        "tmax": 32.2,
+        "tmin": 25.0,
+        "pop": 99,
         "code": 96,
         "label": "雷を伴うひょう"
       }
     ],
     "jma_text_tokyo": [
       {
-        "date": "2026-07-16",
-        "text": "くもり朝から昼過ぎ晴れ所により夕方から夜のはじめ頃雨で雷を伴い激しく降る"
+        "date": "2026-07-17",
+        "text": "くもり昼過ぎ一時雨所により昼過ぎから夕方雷を伴い激しく降る"
       },
       {
-        "date": "2026-07-17",
-        "text": "くもり所により雨で雷を伴う"
+        "date": "2026-07-18",
+        "text": "くもり所により雨"
       }
     ]
   },
@@ -89,26 +89,26 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7572.4,
-        "prev_close": 7543.59,
-        "change": 28.81,
-        "pct": 0.38
+        "price": 7533.77,
+        "prev_close": 7572.4,
+        "change": -38.63,
+        "pct": -0.51
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 26269.23,
-        "prev_close": 26107.01,
-        "change": 162.22,
-        "pct": 0.62
+        "price": 25881.95,
+        "prev_close": 26269.23,
+        "change": -387.28,
+        "pct": -1.47
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 52658.64,
-        "prev_close": 52508.27,
-        "change": 150.37,
-        "pct": 0.29
+        "price": 52552.97,
+        "prev_close": 52658.64,
+        "change": -105.67,
+        "pct": -0.2
       }
     ],
     "watchlist": {
@@ -116,68 +116,68 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 9.36,
-          "prev_close": 9.74,
-          "change": -0.38,
-          "pct": -3.9
+          "price": 8.45,
+          "prev_close": 9.36,
+          "change": -0.91,
+          "pct": -9.72
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 14.85,
-          "prev_close": 14.91,
-          "change": -0.06,
-          "pct": -0.4
+          "price": 13.44,
+          "prev_close": 14.85,
+          "change": -1.41,
+          "pct": -9.49
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 76.2,
-          "prev_close": 78.81,
-          "change": -2.61,
-          "pct": -3.31
+          "price": 67.35,
+          "prev_close": 76.2,
+          "change": -8.85,
+          "pct": -11.61
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 66.31,
-          "prev_close": 68.82,
-          "change": -2.51,
-          "pct": -3.65
+          "price": 55.01,
+          "prev_close": 66.31,
+          "change": -11.3,
+          "pct": -17.04
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 212.5,
-          "prev_close": 211.8,
-          "change": 0.7,
-          "pct": 0.33
+          "price": 207.4,
+          "prev_close": 212.5,
+          "change": -5.1,
+          "pct": -2.4
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 904.28,
-          "prev_close": 983.12,
-          "change": -78.84,
-          "pct": -8.02
+          "price": 853.2,
+          "prev_close": 904.28,
+          "change": -51.08,
+          "pct": -5.65
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 394.28,
-          "prev_close": 389.11,
-          "change": 5.17,
-          "pct": 1.33
+          "price": 374.45,
+          "prev_close": 394.28,
+          "change": -19.83,
+          "pct": -5.03
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 419.48,
-          "prev_close": 420.39,
-          "change": -0.91,
-          "pct": -0.22
+          "price": 409.74,
+          "prev_close": 419.48,
+          "change": -9.74,
+          "pct": -2.32
         }
       ]
     },
