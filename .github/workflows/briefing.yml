@@ -2,7 +2,7 @@ name: morning-briefing
 
 on:
   schedule:
-    # 05:50 JST every day = 20:50 UTC the previous day.
+    # 04:50 JST every day = 19:50 UTC the previous day.
     - cron: "50 19 * * *"
   workflow_dispatch: {}
 
