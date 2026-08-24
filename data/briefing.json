@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-08-24T04:57:21+09:00",
-  "generated_at_utc": "2026-08-23T19:57:21+00:00",
+  "generated_at_jst": "2026-08-25T05:03:46+09:00",
+  "generated_at_utc": "2026-08-24T20:03:46+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -10,77 +10,77 @@
     "source": "open-meteo + JMA",
     "daily": [
       {
-        "date": "2026-08-24",
-        "wday": "月",
-        "tmax": 31.9,
-        "tmin": 22.7,
-        "pop": 77,
-        "code": 3,
-        "label": "曇り"
-      },
-      {
         "date": "2026-08-25",
         "wday": "火",
         "tmax": 33.8,
-        "tmin": 24.7,
-        "pop": 33,
-        "code": 53,
-        "label": "霧雨"
+        "tmin": 24.2,
+        "pop": 41,
+        "code": 1,
+        "label": "晴れ"
       },
       {
         "date": "2026-08-26",
         "wday": "水",
-        "tmax": 32.7,
-        "tmin": 25.2,
-        "pop": 57,
-        "code": 3,
-        "label": "曇り"
+        "tmax": 33.9,
+        "tmin": 25.9,
+        "pop": 75,
+        "code": 51,
+        "label": "弱い霧雨"
       },
       {
         "date": "2026-08-27",
         "wday": "木",
         "tmax": 31.6,
-        "tmin": 23.4,
-        "pop": 51,
+        "tmin": 24.7,
+        "pop": 67,
         "code": 51,
         "label": "弱い霧雨"
       },
       {
         "date": "2026-08-28",
         "wday": "金",
-        "tmax": 32.4,
-        "tmin": 21.9,
-        "pop": 65,
-        "code": 51,
-        "label": "弱い霧雨"
+        "tmax": 30.2,
+        "tmin": 24.2,
+        "pop": 80,
+        "code": 80,
+        "label": "にわか雨"
       },
       {
         "date": "2026-08-29",
         "wday": "土",
-        "tmax": 30.0,
-        "tmin": 23.3,
-        "pop": 49,
-        "code": 51,
-        "label": "弱い霧雨"
+        "tmax": 29.7,
+        "tmin": 22.9,
+        "pop": 64,
+        "code": 55,
+        "label": "強い霧雨"
       },
       {
         "date": "2026-08-30",
         "wday": "日",
-        "tmax": 29.0,
-        "tmin": 23.0,
-        "pop": 35,
-        "code": 53,
-        "label": "霧雨"
+        "tmax": 29.6,
+        "tmin": 23.8,
+        "pop": 53,
+        "code": 55,
+        "label": "強い霧雨"
+      },
+      {
+        "date": "2026-08-31",
+        "wday": "月",
+        "tmax": 32.8,
+        "tmin": 24.7,
+        "pop": 52,
+        "code": 95,
+        "label": "雷雨"
       }
     ],
     "jma_text_tokyo": [
       {
-        "date": "2026-08-24",
-        "text": "晴れ夕方からくもり所により昼過ぎから夜のはじめ頃雨で雷を伴う"
-      },
-      {
         "date": "2026-08-25",
         "text": "晴れ昼過ぎから時々くもり所により雨で雷を伴う"
+      },
+      {
+        "date": "2026-08-26",
+        "text": "晴れ夕方からくもり多摩西部では夕方から夜のはじめ頃雨で雷を伴い激しく降る"
       }
     ]
   },
@@ -89,26 +89,26 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7674.37,
-        "prev_close": 7641.16,
-        "change": 33.21,
-        "pct": 0.43
+        "price": 7652.95,
+        "prev_close": 7674.37,
+        "change": -21.42,
+        "pct": -0.28
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 26180.46,
-        "prev_close": 26067.17,
-        "change": 113.29,
-        "pct": 0.43
+        "price": 25980.19,
+        "prev_close": 26180.46,
+        "change": -200.27,
+        "pct": -0.76
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 53277.01,
-        "prev_close": 52759.21,
-        "change": 517.8,
-        "pct": 0.98
+        "price": 53416.99,
+        "prev_close": 53277.01,
+        "change": 139.98,
+        "pct": 0.26
       }
     ],
     "watchlist": {
@@ -116,68 +116,68 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 12.02,
-          "prev_close": 11.77,
-          "change": 0.25,
-          "pct": 2.12
+          "price": 11.39,
+          "prev_close": 12.02,
+          "change": -0.64,
+          "pct": -5.28
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 18.32,
-          "prev_close": 17.93,
-          "change": 0.39,
-          "pct": 2.18
+          "price": 16.66,
+          "prev_close": 18.32,
+          "change": -1.66,
+          "pct": -9.06
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 72.57,
-          "prev_close": 72.95,
-          "change": -0.38,
-          "pct": -0.52
+          "price": 68.28,
+          "prev_close": 72.57,
+          "change": -4.29,
+          "pct": -5.91
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 68.65,
-          "prev_close": 65.06,
-          "change": 3.59,
-          "pct": 5.52
+          "price": 62.35,
+          "prev_close": 68.65,
+          "change": -6.3,
+          "pct": -9.18
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 214.72,
-          "prev_close": 216.85,
-          "change": -2.13,
-          "pct": -0.98
+          "price": 208.48,
+          "prev_close": 214.72,
+          "change": -6.24,
+          "pct": -2.91
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 966.78,
-          "prev_close": 974.33,
-          "change": -7.55,
-          "pct": -0.77
+          "price": 910.43,
+          "prev_close": 966.78,
+          "change": -56.35,
+          "pct": -5.83
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 368.45,
-          "prev_close": 364.03,
-          "change": 4.42,
-          "pct": 1.21
+          "price": 358.76,
+          "prev_close": 368.45,
+          "change": -9.69,
+          "pct": -2.63
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 418.95,
-          "prev_close": 416.0,
-          "change": 2.95,
-          "pct": 0.71
+          "price": 410.13,
+          "prev_close": 418.95,
+          "change": -8.82,
+          "pct": -2.11
         }
       ]
     },
