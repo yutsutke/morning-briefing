@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-17T07:21:47+09:00",
-  "generated_at_utc": "2026-09-16T22:21:47+00:00",
+  "generated_at_jst": "2026-09-17T08:32:17+09:00",
+  "generated_at_utc": "2026-09-16T23:32:17+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,8 +12,8 @@
       {
         "date": "2026-09-17",
         "wday": "木",
-        "tmax": 24.4,
-        "tmin": 18.8,
+        "tmax": 24.2,
+        "tmin": 19.2,
         "pop": 100,
         "code": 51,
         "label": "弱い霧雨"
@@ -21,8 +21,8 @@
       {
         "date": "2026-09-18",
         "wday": "金",
-        "tmax": 21.2,
-        "tmin": 18.9,
+        "tmax": 24.1,
+        "tmin": 19.0,
         "pop": 55,
         "code": 53,
         "label": "霧雨"
@@ -128,6 +128,22 @@
           "prev_close": 13.87,
           "change": 0.0,
           "pct": 0.0
+        },
+        {
+          "ticker": "SPCX",
+          "name": "SpaceX",
+          "price": 150.88,
+          "prev_close": 143.49,
+          "change": 7.39,
+          "pct": 5.15
+        },
+        {
+          "ticker": "VOYG",
+          "name": "Voyager Technologies",
+          "price": 35.18,
+          "prev_close": 34.51,
+          "change": 0.67,
+          "pct": 1.94
         },
         {
           "ticker": "RKLB",
