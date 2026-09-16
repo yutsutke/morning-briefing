@@ -35,13 +35,14 @@ LOCATION_NAME = "八王子"
 
 # ---- Watchlist (edit freely) --------------------------------------------
 INDICES = ["^GSPC", "^IXIC", "^DJI"]
-SPACE = ["RDW", "LUNR", "RKLB", "ASTS"]
+SPACE = ["RDW", "LUNR", "SPCX", "VOYG", "RKLB", "ASTS"]
 AI_SEMI = ["NVDA", "MU", "AVGO", "TSM"]
 
 NAMES = {
     "^GSPC": "S&P 500", "^IXIC": "NASDAQ総合", "^DJI": "ダウ工業株30種",
     "RDW": "Redwire", "LUNR": "Intuitive Machines", "RKLB": "Rocket Lab",
-    "ASTS": "AST SpaceMobile", "NVDA": "NVIDIA", "MU": "Micron",
+    "ASTS": "AST SpaceMobile", "SPCX": "SpaceX", "VOYG": "Voyager Technologies",
+    "NVDA": "NVIDIA", "MU": "Micron",
     "AVGO": "Broadcom", "TSM": "TSMC",
 }
 
