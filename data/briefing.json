@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-09-30T04:50:24+09:00",
-  "generated_at_utc": "2026-09-29T19:50:24+00:00",
+  "generated_at_jst": "2026-09-30T08:13:22+09:00",
+  "generated_at_utc": "2026-09-29T23:13:22+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -13,7 +13,7 @@
         "date": "2026-09-30",
         "wday": "水",
         "tmax": 20.1,
-        "tmin": 16.8,
+        "tmin": 16.6,
         "pop": 98,
         "code": 63,
         "label": "雨"
@@ -21,11 +21,11 @@
       {
         "date": "2026-10-01",
         "wday": "木",
-        "tmax": 26.8,
+        "tmax": 27.2,
         "tmin": 18.2,
         "pop": 5,
-        "code": 51,
-        "label": "弱い霧雨"
+        "code": 3,
+        "label": "曇り"
       },
       {
         "date": "2026-10-02",
@@ -89,26 +89,26 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7672.43,
+        "price": 7670.84,
         "prev_close": 7683.69,
-        "change": -11.26,
-        "pct": -0.15
+        "change": -12.85,
+        "pct": -0.17
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 26810.04,
+        "price": 26797.54,
         "prev_close": 26820.38,
-        "change": -10.34,
-        "pct": -0.04
+        "change": -22.84,
+        "pct": -0.09
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 51364.41,
+        "price": 51349.92,
         "prev_close": 51481.51,
-        "change": -117.1,
-        "pct": -0.23
+        "change": -131.59,
+        "pct": -0.26
       }
     ],
     "watchlist": {
@@ -119,81 +119,81 @@
           "price": 10.73,
           "prev_close": 11.2,
           "change": -0.47,
-          "pct": -4.15
+          "pct": -4.2
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 14.6,
+          "price": 14.55,
           "prev_close": 15.2,
-          "change": -0.6,
-          "pct": -3.91
+          "change": -0.65,
+          "pct": -4.28
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 149.72,
+          "price": 149.24,
           "prev_close": 145.47,
-          "change": 4.25,
-          "pct": 2.92
+          "change": 3.77,
+          "pct": 2.59
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 30.69,
+          "price": 30.74,
           "prev_close": 33.18,
-          "change": -2.49,
-          "pct": -7.5
+          "change": -2.44,
+          "pct": -7.35
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 69.72,
+          "price": 69.7,
           "prev_close": 72.19,
-          "change": -2.47,
-          "pct": -3.42
+          "change": -2.49,
+          "pct": -3.45
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 59.64,
+          "price": 59.4,
           "prev_close": 61.0,
-          "change": -1.36,
-          "pct": -2.23
+          "change": -1.6,
+          "pct": -2.62
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 227.81,
+          "price": 227.21,
           "prev_close": 228.86,
-          "change": -1.05,
-          "pct": -0.46
+          "change": -1.65,
+          "pct": -0.72
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 1066.59,
+          "price": 1065.08,
           "prev_close": 1053.98,
-          "change": 12.61,
-          "pct": 1.2
+          "change": 11.1,
+          "pct": 1.05
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 354.91,
+          "price": 355.1,
           "prev_close": 349.57,
-          "change": 5.34,
-          "pct": 1.53
+          "change": 5.53,
+          "pct": 1.58
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 458.08,
+          "price": 456.94,
           "prev_close": 452.88,
-          "change": 5.2,
-          "pct": 1.15
+          "change": 4.06,
+          "pct": 0.9
         }
       ]
     },
