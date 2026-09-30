@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-01T04:50:21+09:00",
-  "generated_at_utc": "2026-09-30T19:50:21+00:00",
+  "generated_at_jst": "2026-10-01T08:13:05+09:00",
+  "generated_at_utc": "2026-09-30T23:13:05+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,7 +12,7 @@
       {
         "date": "2026-10-01",
         "wday": "木",
-        "tmax": 29.3,
+        "tmax": 28.0,
         "tmin": 18.3,
         "pop": 37,
         "code": 3,
@@ -21,7 +21,7 @@
       {
         "date": "2026-10-02",
         "wday": "金",
-        "tmax": 23.3,
+        "tmax": 24.1,
         "tmin": 18.2,
         "pop": 49,
         "code": 2,
@@ -89,26 +89,26 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7677.02,
+        "price": 7651.54,
         "prev_close": 7670.84,
-        "change": 6.18,
-        "pct": 0.08
+        "change": -19.3,
+        "pct": -0.25
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 26982.71,
+        "price": 26861.06,
         "prev_close": 26797.54,
-        "change": 185.18,
-        "pct": 0.69
+        "change": 63.53,
+        "pct": 0.24
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 51024.67,
+        "price": 50906.05,
         "prev_close": 51349.92,
-        "change": -325.25,
-        "pct": -0.63
+        "change": -443.87,
+        "pct": -0.86
       }
     ],
     "watchlist": {
@@ -116,84 +116,84 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 10.52,
+          "price": 10.44,
           "prev_close": 10.73,
-          "change": -0.21,
-          "pct": -2.0
+          "change": -0.29,
+          "pct": -2.7
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 14.36,
+          "price": 14.24,
           "prev_close": 14.55,
-          "change": -0.19,
-          "pct": -1.27
+          "change": -0.31,
+          "pct": -2.13
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 151.9,
+          "price": 150.86,
           "prev_close": 149.24,
-          "change": 2.66,
-          "pct": 1.78
+          "change": 1.62,
+          "pct": 1.09
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 30.43,
+          "price": 30.25,
           "prev_close": 30.74,
-          "change": -0.31,
-          "pct": -0.99
+          "change": -0.49,
+          "pct": -1.59
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 70.13,
+          "price": 69.68,
           "prev_close": 69.7,
-          "change": 0.43,
-          "pct": 0.62
+          "change": -0.02,
+          "pct": -0.03
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 59.3,
+          "price": 58.86,
           "prev_close": 59.4,
-          "change": -0.1,
-          "pct": -0.17
+          "change": -0.54,
+          "pct": -0.91
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 230.15,
+          "price": 228.38,
           "prev_close": 227.21,
-          "change": 2.94,
-          "pct": 1.3
+          "change": 1.17,
+          "pct": 0.51
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 1066.58,
+          "price": 1065.11,
           "prev_close": 1065.08,
-          "change": 1.51,
-          "pct": 0.14
+          "change": 0.03,
+          "pct": 0.0
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 352.53,
+          "price": 351.19,
           "prev_close": 355.1,
-          "change": -2.57,
-          "pct": -0.72
+          "change": -3.91,
+          "pct": -1.1
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 457.87,
+          "price": 456.19,
           "prev_close": 456.94,
-          "change": 0.93,
-          "pct": 0.2
+          "change": -0.75,
+          "pct": -0.16
         }
       ]
     },
