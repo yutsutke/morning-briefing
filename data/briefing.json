@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-07T06:10:27+09:00",
-  "generated_at_utc": "2026-10-06T21:10:27+00:00",
+  "generated_at_jst": "2026-10-07T08:17:18+09:00",
+  "generated_at_utc": "2026-10-06T23:17:18+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,17 +12,17 @@
       {
         "date": "2026-10-07",
         "wday": "水",
-        "tmax": 25.0,
-        "tmin": 17.7,
-        "pop": 2,
+        "tmax": 24.9,
+        "tmin": 17.6,
+        "pop": 12,
         "code": 2,
         "label": "晴れ時々曇り"
       },
       {
         "date": "2026-10-08",
         "wday": "木",
-        "tmax": 23.1,
-        "tmin": 14.8,
+        "tmax": 23.2,
+        "tmin": 14.7,
         "pop": 0,
         "code": 1,
         "label": "晴れ"
@@ -50,7 +50,7 @@
         "wday": "日",
         "tmax": 25.2,
         "tmin": 15.6,
-        "pop": 8,
+        "pop": 4,
         "code": 1,
         "label": "晴れ"
       },
@@ -59,7 +59,7 @@
         "wday": "月",
         "tmax": 25.7,
         "tmin": 12.3,
-        "pop": 5,
+        "pop": 11,
         "code": 3,
         "label": "曇り"
       },
@@ -97,9 +97,9 @@
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 27599.79,
+        "price": 27599.89,
         "prev_close": 27477.31,
-        "change": 122.48,
+        "change": 122.58,
         "pct": 0.45
       },
       {
