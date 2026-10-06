@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-07T04:50:20+09:00",
-  "generated_at_utc": "2026-10-06T19:50:20+00:00",
+  "generated_at_jst": "2026-10-07T06:10:27+09:00",
+  "generated_at_utc": "2026-10-06T21:10:27+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -89,25 +89,25 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7821.73,
+        "price": 7818.93,
         "prev_close": 7773.95,
-        "change": 47.78,
-        "pct": 0.61
+        "change": 44.98,
+        "pct": 0.58
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 27625.75,
+        "price": 27599.79,
         "prev_close": 27477.31,
-        "change": 148.44,
-        "pct": 0.54
+        "change": 122.48,
+        "pct": 0.45
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 51517.48,
+        "price": 51521.28,
         "prev_close": 51267.9,
-        "change": 249.58,
+        "change": 253.38,
         "pct": 0.49
       }
     ],
@@ -116,84 +116,84 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 10.73,
+          "price": 10.62,
           "prev_close": 10.43,
-          "change": 0.3,
-          "pct": 2.88
+          "change": 0.19,
+          "pct": 1.82
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 14.86,
+          "price": 15.06,
           "prev_close": 14.29,
-          "change": 0.57,
-          "pct": 3.99
+          "change": 0.77,
+          "pct": 5.39
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 173.01,
+          "price": 171.92,
           "prev_close": 171.09,
-          "change": 1.92,
-          "pct": 1.12
+          "change": 0.83,
+          "pct": 0.49
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 30.52,
+          "price": 30.88,
           "prev_close": 30.2,
-          "change": 0.32,
-          "pct": 1.06
+          "change": 0.68,
+          "pct": 2.25
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 74.61,
+          "price": 75.06,
           "prev_close": 73.02,
-          "change": 1.59,
-          "pct": 2.18
+          "change": 2.04,
+          "pct": 2.79
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 63.07,
+          "price": 63.12,
           "prev_close": 58.44,
-          "change": 4.63,
-          "pct": 7.92
+          "change": 4.68,
+          "pct": 8.01
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 239.36,
+          "price": 239.24,
           "prev_close": 238.9,
-          "change": 0.46,
-          "pct": 0.19
+          "change": 0.34,
+          "pct": 0.14
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 1048.65,
+          "price": 1045.56,
           "prev_close": 1063.96,
-          "change": -15.31,
-          "pct": -1.44
+          "change": -18.4,
+          "pct": -1.73
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 376.83,
+          "price": 375.81,
           "prev_close": 362.51,
-          "change": 14.32,
-          "pct": 3.95
+          "change": 13.3,
+          "pct": 3.67
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 482.8,
+          "price": 482.3,
           "prev_close": 485.8,
-          "change": -3.0,
-          "pct": -0.62
+          "change": -3.5,
+          "pct": -0.72
         }
       ]
     },
