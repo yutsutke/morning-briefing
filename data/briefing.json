@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-06T06:10:32+09:00",
-  "generated_at_utc": "2026-10-05T21:10:32+00:00",
+  "generated_at_jst": "2026-10-06T09:58:02+09:00",
+  "generated_at_utc": "2026-10-06T00:58:02+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,11 +12,11 @@
       {
         "date": "2026-10-06",
         "wday": "火",
-        "tmax": 27.2,
-        "tmin": 18.1,
+        "tmax": 27.8,
+        "tmin": 18.5,
         "pop": 12,
-        "code": 3,
-        "label": "曇り"
+        "code": 1,
+        "label": "晴れ"
       },
       {
         "date": "2026-10-07",
@@ -39,8 +39,8 @@
       {
         "date": "2026-10-09",
         "wday": "金",
-        "tmax": 23.3,
-        "tmin": 11.8,
+        "tmax": 23.2,
+        "tmin": 12.0,
         "pop": 2,
         "code": 1,
         "label": "晴れ"
@@ -48,8 +48,8 @@
       {
         "date": "2026-10-10",
         "wday": "土",
-        "tmax": 23.6,
-        "tmin": 10.6,
+        "tmax": 23.0,
+        "tmin": 10.9,
         "pop": 0,
         "code": 2,
         "label": "晴れ時々曇り"
@@ -57,8 +57,8 @@
       {
         "date": "2026-10-11",
         "wday": "日",
-        "tmax": 24.1,
-        "tmin": 13.2,
+        "tmax": 24.8,
+        "tmin": 13.7,
         "pop": 10,
         "code": 3,
         "label": "曇り"
@@ -67,7 +67,7 @@
         "date": "2026-10-12",
         "wday": "月",
         "tmax": 25.4,
-        "tmin": 12.8,
+        "tmin": 13.3,
         "pop": 4,
         "code": 0,
         "label": "快晴"
@@ -116,84 +116,84 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 10.43,
-          "prev_close": 10.88,
-          "change": -0.45,
-          "pct": -4.14
+          "price": 10.88,
+          "prev_close": 10.57,
+          "change": 0.31,
+          "pct": 2.93
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 14.29,
-          "prev_close": 14.71,
-          "change": -0.42,
-          "pct": -2.86
+          "price": 14.71,
+          "prev_close": 14.05,
+          "change": 0.66,
+          "pct": 4.7
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 171.09,
-          "prev_close": 158.96,
-          "change": 12.13,
-          "pct": 7.63
+          "price": 158.96,
+          "prev_close": 148.07,
+          "change": 10.89,
+          "pct": 7.35
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 30.2,
-          "prev_close": 30.93,
-          "change": -0.73,
-          "pct": -2.36
+          "price": 30.93,
+          "prev_close": 29.91,
+          "change": 1.02,
+          "pct": 3.41
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 73.02,
-          "prev_close": 73.92,
-          "change": -0.9,
-          "pct": -1.22
+          "price": 73.92,
+          "prev_close": 70.46,
+          "change": 3.46,
+          "pct": 4.91
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 58.44,
-          "prev_close": 58.45,
-          "change": -0.01,
-          "pct": -0.02
+          "price": 58.45,
+          "prev_close": 57.04,
+          "change": 1.41,
+          "pct": 2.47
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 238.9,
-          "prev_close": 233.95,
-          "change": 4.95,
-          "pct": 2.12
+          "price": 233.95,
+          "prev_close": 230.86,
+          "change": 3.09,
+          "pct": 1.34
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 1063.96,
-          "prev_close": 1074.89,
-          "change": -10.93,
-          "pct": -1.02
+          "price": 1074.89,
+          "prev_close": 1097.39,
+          "change": -22.5,
+          "pct": -2.05
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 362.51,
-          "prev_close": 355.14,
-          "change": 7.37,
-          "pct": 2.08
+          "price": 355.14,
+          "prev_close": 343.64,
+          "change": 11.5,
+          "pct": 3.35
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 485.8,
-          "prev_close": 472.78,
-          "change": 13.02,
-          "pct": 2.75
+          "price": 472.78,
+          "prev_close": 459.2,
+          "change": 13.58,
+          "pct": 2.96
         }
       ]
     },
