@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-14T06:10:24+09:00",
-  "generated_at_utc": "2026-10-13T21:10:24+00:00",
+  "generated_at_jst": "2026-10-14T08:26:46+09:00",
+  "generated_at_utc": "2026-10-13T23:26:46+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,8 +12,8 @@
       {
         "date": "2026-10-14",
         "wday": "水",
-        "tmax": 23.7,
-        "tmin": 15.2,
+        "tmax": 21.4,
+        "tmin": 14.9,
         "pop": 94,
         "code": 61,
         "label": "弱い雨"
@@ -21,7 +21,7 @@
       {
         "date": "2026-10-15",
         "wday": "木",
-        "tmax": 21.7,
+        "tmax": 21.9,
         "tmin": 14.6,
         "pop": 43,
         "code": 2,
@@ -89,10 +89,10 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7805.45,
-        "prev_close": 7807.24,
-        "change": -1.79,
-        "pct": -0.02
+        "price": 7807.24,
+        "prev_close": 7811.54,
+        "change": -4.3,
+        "pct": -0.06
       },
       {
         "ticker": "^IXIC",
@@ -105,10 +105,10 @@
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 51670.1,
-        "prev_close": 51850.55,
-        "change": -180.45,
-        "pct": -0.35
+        "price": 51850.55,
+        "prev_close": 51654.95,
+        "change": 195.6,
+        "pct": 0.38
       }
     ],
     "watchlist": {
