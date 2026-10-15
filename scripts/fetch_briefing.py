@@ -37,6 +37,8 @@ LOCATION_NAME = "八王子"
 INDICES = ["^GSPC", "^IXIC", "^DJI"]
 SPACE = ["RDW", "LUNR", "SPCX", "VOYG", "RKLB", "ASTS"]
 AI_SEMI = ["NVDA", "MU", "AVGO", "TSM"]
+# SPAC: Churchill Capital Corp XI -> merging with Agility Robotics (AGLT, expected Nov 2026)
+SPAC = ["CCXI"]
 
 NAMES = {
     "^GSPC": "S&P 500", "^IXIC": "NASDAQ総合", "^DJI": "ダウ工業株30種",
@@ -44,6 +46,7 @@ NAMES = {
     "ASTS": "AST SpaceMobile", "SPCX": "SpaceX", "VOYG": "Voyager Technologies",
     "NVDA": "NVIDIA", "MU": "Micron",
     "AVGO": "Broadcom", "TSM": "TSMC",
+    "CCXI": "Churchill Capital XI (→Agility Robotics)",
 }
 
 # ---- Weather code map (WMO -> Japanese) ---------------------------------
@@ -177,7 +180,8 @@ def main():
     indices = watchlist = None
     try:
         indices = fetch_quotes(INDICES)
-        watchlist = {"space": fetch_quotes(SPACE), "ai_semi": fetch_quotes(AI_SEMI)}
+        watchlist = {"space": fetch_quotes(SPACE), "ai_semi": fetch_quotes(AI_SEMI),
+                     "spac": fetch_quotes(SPAC)}
     except Exception as e:
         errors.append(f"quotes: {e}")
 
