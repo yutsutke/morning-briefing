@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-16T07:41:03+09:00",
-  "generated_at_utc": "2026-10-15T22:41:03+00:00",
+  "generated_at_jst": "2026-10-17T04:50:21+09:00",
+  "generated_at_utc": "2026-10-16T19:50:21+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -10,19 +10,10 @@
     "source": "open-meteo + JMA",
     "daily": [
       {
-        "date": "2026-10-16",
-        "wday": "金",
-        "tmax": 25.3,
-        "tmin": 15.1,
-        "pop": 25,
-        "code": 3,
-        "label": "曇り"
-      },
-      {
         "date": "2026-10-17",
         "wday": "土",
-        "tmax": 24.2,
-        "tmin": 13.7,
+        "tmax": 23.6,
+        "tmin": 13.4,
         "pop": 0,
         "code": 1,
         "label": "晴れ"
@@ -30,56 +21,65 @@
       {
         "date": "2026-10-18",
         "wday": "日",
-        "tmax": 21.9,
-        "tmin": 12.0,
+        "tmax": 21.7,
+        "tmin": 11.4,
         "pop": 0,
-        "code": 0,
-        "label": "快晴"
+        "code": 1,
+        "label": "晴れ"
       },
       {
         "date": "2026-10-19",
         "wday": "月",
-        "tmax": 27.2,
-        "tmin": 13.1,
-        "pop": 29,
-        "code": 3,
-        "label": "曇り"
+        "tmax": 26.5,
+        "tmin": 14.3,
+        "pop": 24,
+        "code": 51,
+        "label": "弱い霧雨"
       },
       {
         "date": "2026-10-20",
         "wday": "火",
-        "tmax": 26.5,
-        "tmin": 17.9,
-        "pop": 24,
-        "code": 3,
-        "label": "曇り"
+        "tmax": 26.3,
+        "tmin": 18.0,
+        "pop": 40,
+        "code": 63,
+        "label": "雨"
       },
       {
         "date": "2026-10-21",
         "wday": "水",
-        "tmax": 30.3,
+        "tmax": 29.9,
         "tmin": 18.6,
-        "pop": 33,
-        "code": 51,
-        "label": "弱い霧雨"
+        "pop": 51,
+        "code": 3,
+        "label": "曇り"
       },
       {
         "date": "2026-10-22",
         "wday": "木",
-        "tmax": 22.9,
-        "tmin": 16.6,
-        "pop": 35,
+        "tmax": 23.6,
+        "tmin": 15.3,
+        "pop": 57,
         "code": 51,
         "label": "弱い霧雨"
+      },
+      {
+        "date": "2026-10-23",
+        "wday": "金",
+        "tmax": 19.0,
+        "tmin": 14.8,
+        "pop": 19,
+        "code": 53,
+        "label": "霧雨"
       }
     ],
     "jma_text_tokyo": [
       {
-        "date": "2026-10-16",
-        "text": "晴れ時々くもり"
+        "date": "2026-10-17",
+        "text": "晴れ"
       },
       {
-        "date": "2026-10-17",
+        "date": "2026-10-18",
         "text": "晴れ"
       }
     ]
@@ -89,26 +89,26 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7744.06,
-        "prev_close": 7718.94,
-        "change": 25.12,
-        "pct": 0.33
+        "price": 7654.24,
+        "prev_close": 7744.06,
+        "change": -89.82,
+        "pct": -1.16
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 26713.03,
-        "prev_close": 26692.87,
-        "change": 20.16,
-        "pct": 0.08
+        "price": 26116.39,
+        "prev_close": 26713.03,
+        "change": -596.63,
+        "pct": -2.23
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 52177.69,
-        "prev_close": 51621.48,
-        "change": 556.21,
-        "pct": 1.08
+        "price": 51950.02,
+        "prev_close": 52177.69,
+        "change": -227.67,
+        "pct": -0.44
       }
     ],
     "watchlist": {
@@ -116,94 +116,94 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 8.91,
-          "prev_close": 8.62,
-          "change": 0.29,
-          "pct": 3.36
+          "price": 8.35,
+          "prev_close": 8.91,
+          "change": -0.56,
+          "pct": -6.29
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 11.57,
-          "prev_close": 11.02,
-          "change": 0.55,
-          "pct": 4.99
+          "price": 10.68,
+          "prev_close": 11.57,
+          "change": -0.89,
+          "pct": -7.69
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 148.62,
-          "prev_close": 152.16,
-          "change": -3.54,
-          "pct": -2.33
+          "price": 144.26,
+          "prev_close": 148.62,
+          "change": -4.36,
+          "pct": -2.93
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 26.76,
-          "prev_close": 25.82,
-          "change": 0.94,
-          "pct": 3.64
+          "price": 25.18,
+          "prev_close": 26.76,
+          "change": -1.58,
+          "pct": -5.9
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 55.25,
-          "prev_close": 59.18,
-          "change": -3.93,
-          "pct": -6.64
+          "price": 50.7,
+          "prev_close": 55.25,
+          "change": -4.55,
+          "pct": -8.24
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 44.46,
-          "prev_close": 42.14,
-          "change": 2.32,
-          "pct": 5.51
+          "price": 40.43,
+          "prev_close": 44.46,
+          "change": -4.03,
+          "pct": -9.06
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 217.23,
-          "prev_close": 221.3,
-          "change": -4.07,
-          "pct": -1.84
+          "price": 214.46,
+          "prev_close": 217.23,
+          "change": -2.77,
+          "pct": -1.28
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 931.24,
-          "prev_close": 914.13,
-          "change": 17.11,
-          "pct": 1.87
+          "price": 875.65,
+          "prev_close": 931.24,
+          "change": -55.59,
+          "pct": -5.97
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 344.33,
-          "prev_close": 346.25,
-          "change": -1.92,
-          "pct": -0.55
+          "price": 329.73,
+          "prev_close": 344.33,
+          "change": -14.6,
+          "pct": -4.24
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 422.25,
-          "prev_close": 430.0,
-          "change": -7.75,
-          "pct": -1.8
+          "price": 413.31,
+          "prev_close": 422.25,
+          "change": -8.94,
+          "pct": -2.12
         }
       ],
       "spac": [
         {
           "ticker": "CCXI",
           "name": "Churchill Capital XI (→Agility Robotics)",
-          "price": 11.35,
-          "prev_close": 10.83,
-          "change": 0.52,
-          "pct": 4.8
+          "price": 10.69,
+          "prev_close": 11.35,
+          "change": -0.66,
+          "pct": -5.81
         }
       ]
     },
