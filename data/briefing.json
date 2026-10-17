@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-18T04:50:20+09:00",
-  "generated_at_utc": "2026-10-17T19:50:20+00:00",
+  "generated_at_jst": "2026-10-18T06:10:18+09:00",
+  "generated_at_utc": "2026-10-17T21:10:18+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -39,8 +39,8 @@
       {
         "date": "2026-10-21",
         "wday": "水",
-        "tmax": 30.0,
-        "tmin": 18.7,
+        "tmax": 29.4,
+        "tmin": 18.6,
         "pop": 27,
         "code": 45,
         "label": "霧"
@@ -48,17 +48,17 @@
       {
         "date": "2026-10-22",
         "wday": "木",
-        "tmax": 22.4,
-        "tmin": 15.1,
+        "tmax": 22.0,
+        "tmin": 15.8,
         "pop": 33,
-        "code": 51,
-        "label": "弱い霧雨"
+        "code": 3,
+        "label": "曇り"
       },
       {
         "date": "2026-10-23",
         "wday": "金",
-        "tmax": 21.8,
-        "tmin": 12.8,
+        "tmax": 22.2,
+        "tmin": 12.0,
         "pop": 5,
         "code": 3,
         "label": "曇り"
@@ -66,11 +66,11 @@
       {
         "date": "2026-10-24",
         "wday": "土",
-        "tmax": 19.4,
-        "tmin": 16.3,
+        "tmax": 22.6,
+        "tmin": 16.2,
         "pop": 55,
-        "code": 61,
-        "label": "弱い雨"
+        "code": 51,
+        "label": "弱い霧雨"
       }
     ],
     "jma_text_tokyo": [
