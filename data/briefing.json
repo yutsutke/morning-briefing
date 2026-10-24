@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-25T06:10:25+09:00",
-  "generated_at_utc": "2026-10-24T21:10:25+00:00",
+  "generated_at_jst": "2026-10-25T06:55:33+09:00",
+  "generated_at_utc": "2026-10-24T21:55:33+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -68,7 +68,7 @@
         "wday": "土",
         "tmax": 20.9,
         "tmin": 8.3,
-        "pop": 11,
+        "pop": 20,
         "code": 2,
         "label": "晴れ時々曇り"
       }
