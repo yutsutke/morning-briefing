@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-10-29T04:50:23+09:00",
-  "generated_at_utc": "2026-10-28T19:50:23+00:00",
+  "generated_at_jst": "2026-10-29T06:10:18+09:00",
+  "generated_at_utc": "2026-10-28T21:10:18+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -89,26 +89,26 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7743.78,
+        "price": 7743.98,
         "prev_close": 7722.6,
-        "change": 21.18,
-        "pct": 0.27
+        "change": 21.38,
+        "pct": 0.28
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 26529.57,
+        "price": 26549.85,
         "prev_close": 26477.81,
-        "change": 51.76,
-        "pct": 0.2
+        "change": 72.04,
+        "pct": 0.27
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 52516.99,
+        "price": 52475.1,
         "prev_close": 52377.57,
-        "change": 139.42,
-        "pct": 0.27
+        "change": 97.53,
+        "pct": 0.19
       }
     ],
     "watchlist": {
@@ -116,94 +116,94 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 8.95,
+          "price": 9.01,
           "prev_close": 8.89,
-          "change": 0.06,
-          "pct": 0.73
+          "change": 0.12,
+          "pct": 1.35
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 11.45,
+          "price": 11.59,
           "prev_close": 11.56,
-          "change": -0.11,
-          "pct": -0.91
+          "change": 0.03,
+          "pct": 0.26
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 145.58,
+          "price": 145.23,
           "prev_close": 148.58,
-          "change": -3.0,
-          "pct": -2.02
+          "change": -3.35,
+          "pct": -2.25
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 27.17,
+          "price": 27.14,
           "prev_close": 27.61,
-          "change": -0.44,
-          "pct": -1.61
+          "change": -0.47,
+          "pct": -1.7
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 58.49,
+          "price": 58.6,
           "prev_close": 58.31,
-          "change": 0.18,
-          "pct": 0.32
+          "change": 0.29,
+          "pct": 0.5
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 42.19,
+          "price": 42.3,
           "prev_close": 41.96,
-          "change": 0.23,
-          "pct": 0.56
+          "change": 0.34,
+          "pct": 0.81
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 215.09,
+          "price": 215.38,
           "prev_close": 217.94,
-          "change": -2.85,
-          "pct": -1.31
+          "change": -2.56,
+          "pct": -1.17
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 986.72,
+          "price": 983.23,
           "prev_close": 928.76,
-          "change": 57.96,
-          "pct": 6.24
+          "change": 54.47,
+          "pct": 5.86
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 350.74,
+          "price": 351.81,
           "prev_close": 342.33,
-          "change": 8.42,
-          "pct": 2.46
+          "change": 9.48,
+          "pct": 2.77
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 439.45,
+          "price": 439.51,
           "prev_close": 436.87,
-          "change": 2.58,
-          "pct": 0.59
+          "change": 2.64,
+          "pct": 0.6
         }
       ],
       "spac": [
         {
           "ticker": "CCXI",
           "name": "Churchill Capital XI (→Agility Robotics)",
-          "price": 10.24,
+          "price": 10.25,
           "prev_close": 10.24,
-          "change": -0.0,
-          "pct": -0.02
+          "change": 0.01,
+          "pct": 0.1
         }
       ]
     },
