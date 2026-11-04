@@ -37,8 +37,8 @@ LOCATION_NAME = "八王子"
 INDICES = ["^GSPC", "^IXIC", "^DJI"]
 SPACE = ["RDW", "LUNR", "SPCX", "VOYG", "RKLB", "ASTS"]
 AI_SEMI = ["NVDA", "MU", "AVGO", "TSM"]
-# SPAC: Churchill Capital Corp XI -> merging with Agility Robotics (AGLT, expected Nov 2026)
-SPAC = ["CCXI"]
+# Robotics: Agility Robotics (AGLT). Former SPAC CCXI; merger closed 2026-11-04, AGLT trading from 2026-11-05
+ROBOTICS = ["AGLT"]
 
 NAMES = {
     "^GSPC": "S&P 500", "^IXIC": "NASDAQ総合", "^DJI": "ダウ工業株30種",
@@ -46,7 +46,7 @@ NAMES = {
     "ASTS": "AST SpaceMobile", "SPCX": "SpaceX", "VOYG": "Voyager Technologies",
     "NVDA": "NVIDIA", "MU": "Micron",
     "AVGO": "Broadcom", "TSM": "TSMC",
-    "CCXI": "Churchill Capital XI (→Agility Robotics)",
+    "AGLT": "Agility Robotics",
 }
 
 # ---- Weather code map (WMO -> Japanese) ---------------------------------
@@ -138,6 +138,14 @@ def fetch_quotes(tickers):
             h = yf.Ticker(t).history(period="7d", interval="1d")
             closes = h["Close"].dropna()
             price = float(closes.iloc[-1])
+            if len(closes) < 2:
+                # e.g. first trading day after a ticker change: no previous close yet
+                out.append({
+                    "ticker": t, "name": NAMES.get(t, t),
+                    "price": round(price, 2), "prev_close": None,
+                    "change": None, "pct": None,
+                })
+                continue
             prev = float(closes.iloc[-2])
             chg = price - prev
             pct = (chg / prev * 100) if prev else 0.0
@@ -181,7 +189,7 @@ def main():
     try:
         indices = fetch_quotes(INDICES)
         watchlist = {"space": fetch_quotes(SPACE), "ai_semi": fetch_quotes(AI_SEMI),
-                     "spac": fetch_quotes(SPAC)}
+                     "robotics": fetch_quotes(ROBOTICS)}
     except Exception as e:
         errors.append(f"quotes: {e}")
 
