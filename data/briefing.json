@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-05T06:10:27+09:00",
-  "generated_at_utc": "2026-11-04T21:10:27+00:00",
+  "generated_at_jst": "2026-11-05T09:32:42+09:00",
+  "generated_at_utc": "2026-11-05T00:32:42+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,7 +12,7 @@
       {
         "date": "2026-11-05",
         "wday": "木",
-        "tmax": 16.8,
+        "tmax": 16.0,
         "tmin": 11.4,
         "pop": 100,
         "code": 65,
@@ -21,18 +21,18 @@
       {
         "date": "2026-11-06",
         "wday": "金",
-        "tmax": 24.1,
-        "tmin": 13.6,
+        "tmax": 23.3,
+        "tmin": 13.0,
         "pop": 12,
-        "code": 2,
-        "label": "晴れ時々曇り"
+        "code": 53,
+        "label": "霧雨"
       },
       {
         "date": "2026-11-07",
         "wday": "土",
         "tmax": 18.6,
-        "tmin": 7.8,
-        "pop": 12,
+        "tmin": 7.7,
+        "pop": 8,
         "code": 1,
         "label": "晴れ"
       },
@@ -40,37 +40,37 @@
         "date": "2026-11-08",
         "wday": "日",
         "tmax": 14.9,
-        "tmin": 6.8,
-        "pop": 11,
+        "tmin": 7.3,
+        "pop": 14,
         "code": 3,
         "label": "曇り"
       },
       {
         "date": "2026-11-09",
         "wday": "月",
-        "tmax": 11.7,
-        "tmin": 8.2,
-        "pop": 50,
+        "tmax": 11.8,
+        "tmin": 7.7,
+        "pop": 41,
         "code": 51,
         "label": "弱い霧雨"
       },
       {
         "date": "2026-11-10",
         "wday": "火",
-        "tmax": 13.2,
-        "tmin": 4.8,
-        "pop": 25,
-        "code": 1,
-        "label": "晴れ"
+        "tmax": 14.6,
+        "tmin": 6.4,
+        "pop": 29,
+        "code": 3,
+        "label": "曇り"
       },
       {
         "date": "2026-11-11",
         "wday": "水",
         "tmax": 12.3,
         "tmin": 3.7,
-        "pop": 14,
-        "code": 1,
-        "label": "晴れ"
+        "pop": 8,
+        "code": 3,
+        "label": "曇り"
       }
     ],
     "jma_text_tokyo": [
@@ -119,7 +119,7 @@
           "price": 7.72,
           "prev_close": 8.12,
           "change": -0.4,
-          "pct": -4.99
+          "pct": -4.93
         },
         {
           "ticker": "LUNR",
@@ -140,10 +140,10 @@
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 23.05,
+          "price": 23.08,
           "prev_close": 24.83,
-          "change": -1.78,
-          "pct": -7.17
+          "change": -1.75,
+          "pct": -7.05
         },
         {
           "ticker": "RKLB",
@@ -190,20 +190,17 @@
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 395.2,
+          "price": 395.75,
           "prev_close": 404.8,
-          "change": -9.6,
-          "pct": -2.37
+          "change": -9.05,
+          "pct": -2.24
         }
       ],
-      "spac": [
+      "robotics": [
         {
-          "ticker": "CCXI",
-          "name": "Churchill Capital XI (→Agility Robotics)",
-          "price": 11.26,
-          "prev_close": 10.69,
-          "change": 0.57,
-          "pct": 5.33
+          "ticker": "AGLT",
+          "name": "Agility Robotics",
+          "error": "single positional indexer is out-of-bounds"
         }
       ]
     },
