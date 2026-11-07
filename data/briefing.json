@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-07T08:49:28+09:00",
-  "generated_at_utc": "2026-11-06T23:49:28+00:00",
+  "generated_at_jst": "2026-11-08T04:50:20+09:00",
+  "generated_at_utc": "2026-11-07T19:50:20+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -10,77 +10,77 @@
     "source": "open-meteo + JMA",
     "daily": [
       {
-        "date": "2026-11-07",
-        "wday": "土",
-        "tmax": 19.0,
-        "tmin": 8.8,
-        "pop": 49,
-        "code": 2,
-        "label": "晴れ時々曇り"
-      },
-      {
         "date": "2026-11-08",
         "wday": "日",
-        "tmax": 16.1,
-        "tmin": 6.8,
+        "tmax": 16.3,
+        "tmin": 6.4,
         "pop": 0,
-        "code": 2,
-        "label": "晴れ時々曇り"
+        "code": 1,
+        "label": "晴れ"
       },
       {
         "date": "2026-11-09",
         "wday": "月",
         "tmax": 11.2,
-        "tmin": 8.5,
-        "pop": 78,
-        "code": 61,
-        "label": "弱い雨"
+        "tmin": 8.1,
+        "pop": 91,
+        "code": 63,
+        "label": "雨"
       },
       {
         "date": "2026-11-10",
         "wday": "火",
-        "tmax": 14.6,
-        "tmin": 7.6,
-        "pop": 47,
-        "code": 53,
-        "label": "霧雨"
+        "tmax": 14.0,
+        "tmin": 7.7,
+        "pop": 64,
+        "code": 3,
+        "label": "曇り"
       },
       {
         "date": "2026-11-11",
         "wday": "水",
         "tmax": 12.5,
-        "tmin": 6.1,
+        "tmin": 5.1,
         "pop": 4,
-        "code": 3,
-        "label": "曇り"
+        "code": 1,
+        "label": "晴れ"
       },
       {
         "date": "2026-11-12",
         "wday": "木",
-        "tmax": 15.7,
-        "tmin": 4.5,
+        "tmax": 16.7,
+        "tmin": 4.4,
         "pop": 0,
-        "code": 45,
-        "label": "霧"
+        "code": 2,
+        "label": "晴れ時々曇り"
       },
       {
         "date": "2026-11-13",
         "wday": "金",
-        "tmax": 17.5,
-        "tmin": 6.0,
+        "tmax": 18.4,
+        "tmin": 6.3,
         "pop": 2,
         "code": 3,
         "label": "曇り"
+      },
+      {
+        "date": "2026-11-14",
+        "wday": "土",
+        "tmax": 17.2,
+        "tmin": 6.5,
+        "pop": 2,
+        "code": 2,
+        "label": "晴れ時々曇り"
       }
     ],
     "jma_text_tokyo": [
       {
-        "date": "2026-11-07",
-        "text": "晴れ"
+        "date": "2026-11-08",
+        "text": "晴れ夜くもり"
       },
       {
-        "date": "2026-11-08",
-        "text": "くもり昼過ぎまで時々晴れ"
+        "date": "2026-11-09",
+        "text": "雨時々くもり"
       }
     ]
   },
@@ -97,9 +97,9 @@
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 24579.42,
+        "price": 24579.43,
         "prev_close": 24315.0,
-        "change": 264.42,
+        "change": 264.43,
         "pct": 1.09
       },
       {
