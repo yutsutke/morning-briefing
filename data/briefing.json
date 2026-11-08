@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-09T06:10:22+09:00",
-  "generated_at_utc": "2026-11-08T21:10:22+00:00",
+  "generated_at_jst": "2026-11-09T08:10:28+09:00",
+  "generated_at_utc": "2026-11-08T23:10:28+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -14,7 +14,7 @@
         "wday": "月",
         "tmax": 11.2,
         "tmin": 8.1,
-        "pop": 75,
+        "pop": 94,
         "code": 63,
         "label": "雨"
       },
@@ -23,7 +23,7 @@
         "wday": "火",
         "tmax": 14.0,
         "tmin": 6.8,
-        "pop": 74,
+        "pop": 63,
         "code": 3,
         "label": "曇り"
       },
@@ -32,7 +32,7 @@
         "wday": "水",
         "tmax": 12.7,
         "tmin": 4.7,
-        "pop": 0,
+        "pop": 2,
         "code": 2,
         "label": "晴れ時々曇り"
       },
@@ -59,7 +59,7 @@
         "wday": "土",
         "tmax": 19.0,
         "tmin": 5.9,
-        "pop": 3,
+        "pop": 9,
         "code": 3,
         "label": "曇り"
       },
@@ -68,7 +68,7 @@
         "wday": "日",
         "tmax": 16.5,
         "tmin": 10.6,
-        "pop": 55,
+        "pop": 51,
         "code": 53,
         "label": "霧雨"
       }
