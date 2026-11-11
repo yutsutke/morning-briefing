@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-11T06:10:18+09:00",
-  "generated_at_utc": "2026-11-10T21:10:18+00:00",
+  "generated_at_jst": "2026-11-11T09:14:59+09:00",
+  "generated_at_utc": "2026-11-11T00:14:59+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,17 +12,17 @@
       {
         "date": "2026-11-11",
         "wday": "水",
-        "tmax": 13.4,
-        "tmin": 5.4,
+        "tmax": 13.8,
+        "tmin": 5.5,
         "pop": 0,
-        "code": 0,
-        "label": "快晴"
+        "code": 1,
+        "label": "晴れ"
       },
       {
         "date": "2026-11-12",
         "wday": "木",
-        "tmax": 17.1,
-        "tmin": 6.7,
+        "tmax": 16.7,
+        "tmin": 6.9,
         "pop": 0,
         "code": 1,
         "label": "晴れ"
@@ -32,7 +32,7 @@
         "wday": "金",
         "tmax": 19.3,
         "tmin": 8.6,
-        "pop": 4,
+        "pop": 2,
         "code": 0,
         "label": "快晴"
       },
@@ -41,7 +41,7 @@
         "wday": "土",
         "tmax": 16.3,
         "tmin": 7.2,
-        "pop": 12,
+        "pop": 13,
         "code": 3,
         "label": "曇り"
       },
@@ -50,7 +50,7 @@
         "wday": "日",
         "tmax": 16.9,
         "tmin": 10.5,
-        "pop": 65,
+        "pop": 67,
         "code": 55,
         "label": "強い霧雨"
       },
@@ -59,7 +59,7 @@
         "wday": "月",
         "tmax": 20.3,
         "tmin": 9.5,
-        "pop": 47,
+        "pop": 61,
         "code": 55,
         "label": "強い霧雨"
       },
@@ -68,7 +68,7 @@
         "wday": "火",
         "tmax": 12.5,
         "tmin": 8.2,
-        "pop": 71,
+        "pop": 51,
         "code": 51,
         "label": "弱い霧雨"
       }
@@ -116,10 +116,10 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 8.14,
+          "price": 8.13,
           "prev_close": 8.15,
-          "change": -0.01,
-          "pct": -0.18
+          "change": -0.02,
+          "pct": -0.25
         },
         {
           "ticker": "LUNR",
@@ -190,10 +190,10 @@
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 396.58,
+          "price": 396.48,
           "prev_close": 388.62,
-          "change": 7.96,
-          "pct": 2.05
+          "change": 7.86,
+          "pct": 2.02
         }
       ],
       "robotics": [
