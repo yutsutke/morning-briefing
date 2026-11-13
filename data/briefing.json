@@ -1,89 +1,12 @@
 {
-  "generated_at_jst": "2026-11-13T06:10:18+09:00",
-  "generated_at_utc": "2026-11-12T21:10:18+00:00",
+  "generated_at_jst": "2026-11-13T09:42:12+09:00",
+  "generated_at_utc": "2026-11-13T00:42:12+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
     "lon": 139.32
   },
-  "weather": {
-    "source": "open-meteo + JMA",
-    "daily": [
-      {
-        "date": "2026-11-13",
-        "wday": "金",
-        "tmax": 18.9,
-        "tmin": 8.7,
-        "pop": 0,
-        "code": 2,
-        "label": "晴れ時々曇り"
-      },
-      {
-        "date": "2026-11-14",
-        "wday": "土",
-        "tmax": 19.2,
-        "tmin": 11.5,
-        "pop": 0,
-        "code": 3,
-        "label": "曇り"
-      },
-      {
-        "date": "2026-11-15",
-        "wday": "日",
-        "tmax": 13.4,
-        "tmin": 11.7,
-        "pop": 58,
-        "code": 61,
-        "label": "弱い雨"
-      },
-      {
-        "date": "2026-11-16",
-        "wday": "月",
-        "tmax": 19.3,
-        "tmin": 10.4,
-        "pop": 43,
-        "code": 51,
-        "label": "弱い霧雨"
-      },
-      {
-        "date": "2026-11-17",
-        "wday": "火",
-        "tmax": 13.3,
-        "tmin": 9.8,
-        "pop": 55,
-        "code": 61,
-        "label": "弱い雨"
-      },
-      {
-        "date": "2026-11-18",
-        "wday": "水",
-        "tmax": 19.4,
-        "tmin": 9.9,
-        "pop": 94,
-        "code": 81,
-        "label": "やや強いにわか雨"
-      },
-      {
-        "date": "2026-11-19",
-        "wday": "木",
-        "tmax": 18.5,
-        "tmin": 5.5,
-        "pop": 23,
-        "code": 45,
-        "label": "霧"
-      }
-    ],
-    "jma_text_tokyo": [
-      {
-        "date": "2026-11-13",
-        "text": "くもり昼前から晴れ"
-      },
-      {
-        "date": "2026-11-14",
-        "text": "晴れ時々くもり"
-      }
-    ]
-  },
+  "weather": null,
   "markets": {
     "indices": [
       {
@@ -116,10 +39,10 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 8.02,
+          "price": 8.03,
           "prev_close": 8.4,
-          "change": -0.38,
-          "pct": -4.46
+          "change": -0.37,
+          "pct": -4.4
         },
         {
           "ticker": "LUNR",
@@ -140,10 +63,10 @@
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 27.77,
+          "price": 27.79,
           "prev_close": 29.58,
-          "change": -1.81,
-          "pct": -6.12
+          "change": -1.79,
+          "pct": -6.05
         },
         {
           "ticker": "RKLB",
@@ -190,10 +113,10 @@
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 405.61,
+          "price": 405.49,
           "prev_close": 413.35,
-          "change": -7.74,
-          "pct": -1.87
+          "change": -7.86,
+          "pct": -1.9
         }
       ],
       "robotics": [
@@ -209,5 +132,7 @@
     },
     "movers": null
   },
-  "errors": []
+  "errors": [
+    "weather: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+  ]
 }
