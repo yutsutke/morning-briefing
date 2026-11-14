@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-14T09:28:57+09:00",
-  "generated_at_utc": "2026-11-14T00:28:57+00:00",
+  "generated_at_jst": "2026-11-15T04:50:24+09:00",
+  "generated_at_utc": "2026-11-14T19:50:24+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -10,55 +10,46 @@
     "source": "open-meteo + JMA",
     "daily": [
       {
-        "date": "2026-11-14",
-        "wday": "土",
-        "tmax": 17.9,
-        "tmin": 10.2,
-        "pop": 2,
-        "code": 3,
-        "label": "曇り"
-      },
-      {
         "date": "2026-11-15",
         "wday": "日",
-        "tmax": 13.0,
+        "tmax": 13.6,
         "tmin": 11.1,
         "pop": 100,
-        "code": 63,
-        "label": "雨"
+        "code": 65,
+        "label": "強い雨"
       },
       {
         "date": "2026-11-16",
         "wday": "月",
-        "tmax": 18.8,
+        "tmax": 18.7,
         "tmin": 11.2,
         "pop": 33,
-        "code": 3,
-        "label": "曇り"
+        "code": 2,
+        "label": "晴れ時々曇り"
       },
       {
         "date": "2026-11-17",
         "wday": "火",
-        "tmax": 12.7,
-        "tmin": 9.9,
+        "tmax": 13.4,
+        "tmin": 9.2,
         "pop": 68,
-        "code": 53,
-        "label": "霧雨"
+        "code": 63,
+        "label": "雨"
       },
       {
         "date": "2026-11-18",
         "wday": "水",
-        "tmax": 15.6,
-        "tmin": 9.2,
+        "tmax": 16.9,
+        "tmin": 8.9,
         "pop": 96,
-        "code": 80,
-        "label": "にわか雨"
+        "code": 81,
+        "label": "やや強いにわか雨"
       },
       {
         "date": "2026-11-19",
         "wday": "木",
-        "tmax": 19.9,
-        "tmin": 8.1,
+        "tmax": 18.2,
+        "tmin": 7.7,
         "pop": 14,
         "code": 45,
         "label": "霧"
@@ -66,21 +57,30 @@
       {
         "date": "2026-11-20",
         "wday": "金",
-        "tmax": 16.3,
-        "tmin": 5.0,
+        "tmax": 13.3,
+        "tmin": 4.5,
         "pop": 2,
         "code": 1,
         "label": "晴れ"
+      },
+      {
+        "date": "2026-11-21",
+        "wday": "土",
+        "tmax": 14.0,
+        "tmin": 2.9,
+        "pop": 1,
+        "code": 0,
+        "label": "快晴"
       }
     ],
     "jma_text_tokyo": [
       {
-        "date": "2026-11-14",
-        "text": "くもり時々晴れ"
-      },
-      {
         "date": "2026-11-15",
         "text": "雨朝晩くもり"
+      },
+      {
+        "date": "2026-11-16",
+        "text": "晴れ夕方からくもり"
       }
     ]
   },
