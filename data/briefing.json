@@ -1,12 +1,89 @@
 {
-  "generated_at_jst": "2026-11-15T08:24:32+09:00",
-  "generated_at_utc": "2026-11-14T23:24:32+00:00",
+  "generated_at_jst": "2026-11-16T04:50:20+09:00",
+  "generated_at_utc": "2026-11-15T19:50:20+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
     "lon": 139.32
   },
-  "weather": null,
+  "weather": {
+    "source": "open-meteo + JMA",
+    "daily": [
+      {
+        "date": "2026-11-16",
+        "wday": "月",
+        "tmax": 19.0,
+        "tmin": 10.9,
+        "pop": 33,
+        "code": 2,
+        "label": "晴れ時々曇り"
+      },
+      {
+        "date": "2026-11-17",
+        "wday": "火",
+        "tmax": 11.3,
+        "tmin": 9.0,
+        "pop": 68,
+        "code": 61,
+        "label": "弱い雨"
+      },
+      {
+        "date": "2026-11-18",
+        "wday": "水",
+        "tmax": 15.8,
+        "tmin": 9.0,
+        "pop": 96,
+        "code": 63,
+        "label": "雨"
+      },
+      {
+        "date": "2026-11-19",
+        "wday": "木",
+        "tmax": 19.8,
+        "tmin": 8.4,
+        "pop": 14,
+        "code": 1,
+        "label": "晴れ"
+      },
+      {
+        "date": "2026-11-20",
+        "wday": "金",
+        "tmax": 14.1,
+        "tmin": 4.5,
+        "pop": 2,
+        "code": 1,
+        "label": "晴れ"
+      },
+      {
+        "date": "2026-11-21",
+        "wday": "土",
+        "tmax": 13.1,
+        "tmin": 2.2,
+        "pop": 1,
+        "code": 0,
+        "label": "快晴"
+      },
+      {
+        "date": "2026-11-22",
+        "wday": "日",
+        "tmax": 12.0,
+        "tmin": 1.2,
+        "pop": 2,
+        "code": 1,
+        "label": "晴れ"
+      }
+    ],
+    "jma_text_tokyo": [
+      {
+        "date": "2026-11-16",
+        "text": "晴れ夕方からくもり"
+      },
+      {
+        "date": "2026-11-17",
+        "text": "くもり夕方から雨"
+      }
+    ]
+  },
   "markets": {
     "indices": [
       {
@@ -132,7 +209,5 @@
     },
     "movers": null
   },
-  "errors": [
-    "weather: 429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=35.66&longitude=139.32&daily=temperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cweathercode&timezone=Asia%2FTokyo&forecast_days=7"
-  ]
+  "errors": []
 }
