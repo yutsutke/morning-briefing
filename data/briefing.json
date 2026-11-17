@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-17T06:10:21+09:00",
-  "generated_at_utc": "2026-11-16T21:10:21+00:00",
+  "generated_at_jst": "2026-11-17T11:36:57+09:00",
+  "generated_at_utc": "2026-11-17T02:36:57+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -21,11 +21,11 @@
       {
         "date": "2026-11-18",
         "wday": "水",
-        "tmax": 19.1,
-        "tmin": 9.5,
-        "pop": 98,
-        "code": 63,
-        "label": "雨"
+        "tmax": 20.3,
+        "tmin": 9.4,
+        "pop": 100,
+        "code": 65,
+        "label": "強い雨"
       },
       {
         "date": "2026-11-19",
@@ -39,36 +39,36 @@
       {
         "date": "2026-11-20",
         "wday": "金",
-        "tmax": 16.3,
+        "tmax": 16.2,
         "tmin": 4.1,
-        "pop": 10,
+        "pop": 4,
         "code": 45,
         "label": "霧"
       },
       {
         "date": "2026-11-21",
         "wday": "土",
-        "tmax": 12.5,
-        "tmin": 2.6,
-        "pop": 4,
+        "tmax": 12.4,
+        "tmin": 2.4,
+        "pop": 6,
         "code": 1,
         "label": "晴れ"
       },
       {
         "date": "2026-11-22",
         "wday": "日",
-        "tmax": 12.3,
-        "tmin": 1.0,
-        "pop": 27,
-        "code": 51,
-        "label": "弱い霧雨"
+        "tmax": 12.1,
+        "tmin": 1.5,
+        "pop": 21,
+        "code": 1,
+        "label": "晴れ"
       },
       {
         "date": "2026-11-23",
         "wday": "月",
         "tmax": 11.4,
         "tmin": 0.3,
-        "pop": 1,
+        "pop": 0,
         "code": 3,
         "label": "曇り"
       }
@@ -81,6 +81,10 @@
       {
         "date": "2026-11-18",
         "text": "晴れ時々くもり明け方まで雨"
+      },
+      {
+        "date": "2026-11-19",
+        "text": "晴れ"
       }
     ]
   },
@@ -140,10 +144,10 @@
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 25.03,
+          "price": 25.01,
           "prev_close": 27.04,
-          "change": -2.01,
-          "pct": -7.43
+          "change": -2.03,
+          "pct": -7.51
         },
         {
           "ticker": "RKLB",
@@ -190,9 +194,9 @@
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 373.44,
+          "price": 373.45,
           "prev_close": 398.73,
-          "change": -25.29,
+          "change": -25.28,
           "pct": -6.34
         }
       ],
