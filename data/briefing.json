@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-20T10:27:00+09:00",
-  "generated_at_utc": "2026-11-20T01:27:00+00:00",
+  "generated_at_jst": "2026-11-21T04:50:27+09:00",
+  "generated_at_utc": "2026-11-20T19:50:27+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,26 +12,26 @@
       {
         "ticker": "^GSPC",
         "name": "S&P 500",
-        "price": 7175.83,
-        "prev_close": 7323.63,
-        "change": -147.8,
-        "pct": -2.02
+        "price": 6963.91,
+        "prev_close": 7175.83,
+        "change": -211.92,
+        "pct": -2.95
       },
       {
         "ticker": "^IXIC",
         "name": "NASDAQ総合",
-        "price": 23879.2,
-        "prev_close": 24429.88,
-        "change": -550.68,
-        "pct": -2.25
+        "price": 22819.99,
+        "prev_close": 23879.2,
+        "change": -1059.21,
+        "pct": -4.44
       },
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 49097.06,
-        "prev_close": 50198.17,
-        "change": -1101.11,
-        "pct": -2.19
+        "price": 48483.54,
+        "prev_close": 49097.06,
+        "change": -613.52,
+        "pct": -1.25
       }
     ],
     "watchlist": {
@@ -39,100 +39,100 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 6.82,
-          "prev_close": 6.78,
-          "change": 0.04,
-          "pct": 0.59
+          "price": 5.74,
+          "prev_close": 6.51,
+          "change": -0.78,
+          "pct": -11.9
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 10.12,
-          "prev_close": 11.05,
-          "change": -0.93,
-          "pct": -8.37
+          "price": 8.72,
+          "prev_close": 9.78,
+          "change": -1.06,
+          "pct": -10.89
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 143.5,
-          "prev_close": 141.7,
-          "change": 1.8,
-          "pct": 1.27
+          "price": 129.44,
+          "prev_close": 138.43,
+          "change": -8.99,
+          "pct": -6.49
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 23.62,
-          "prev_close": 24.04,
-          "change": -0.42,
-          "pct": -1.75
+          "price": 19.22,
+          "prev_close": 22.02,
+          "change": -2.81,
+          "pct": -12.74
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 53.07,
-          "prev_close": 55.05,
-          "change": -1.98,
-          "pct": -3.6
+          "price": 46.05,
+          "prev_close": 50.99,
+          "change": -4.94,
+          "pct": -9.69
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 25.49,
-          "prev_close": 27.59,
-          "change": -2.1,
-          "pct": -7.61
+          "price": 23.27,
+          "prev_close": 25.55,
+          "change": -2.28,
+          "pct": -8.92
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 150.96,
-          "prev_close": 155.46,
-          "change": -4.5,
-          "pct": -2.89
+          "price": 128.89,
+          "prev_close": 145.98,
+          "change": -17.09,
+          "pct": -11.71
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 705.27,
-          "prev_close": 712.42,
-          "change": -7.15,
-          "pct": -1.0
+          "price": 598.03,
+          "prev_close": 690.44,
+          "change": -92.41,
+          "pct": -13.38
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 354.05,
-          "prev_close": 341.6,
-          "change": 12.45,
-          "pct": 3.64
+          "price": 303.01,
+          "prev_close": 346.65,
+          "change": -43.64,
+          "pct": -12.59
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 362.62,
-          "prev_close": 359.69,
-          "change": 2.93,
-          "pct": 0.81
+          "price": 321.34,
+          "prev_close": 352.09,
+          "change": -30.75,
+          "pct": -8.73
         }
       ],
       "robotics": [
         {
           "ticker": "AGLT",
           "name": "Agility Robotics",
-          "price": 6.85,
-          "prev_close": 7.17,
-          "change": -0.32,
-          "pct": -4.46
+          "price": 6.02,
+          "prev_close": 6.49,
+          "change": -0.47,
+          "pct": -7.24
         }
       ]
     },
     "movers": null
   },
   "errors": [
-    "weather: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+    "weather: 429 Client Error: Too Many Requests for url: https://api.open-meteo.com/v1/forecast?latitude=35.66&longitude=139.32&daily=temperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cweathercode&timezone=Asia%2FTokyo&forecast_days=7"
   ]
 }
