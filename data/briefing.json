@@ -1,89 +1,12 @@
 {
-  "generated_at_jst": "2026-11-20T06:10:19+09:00",
-  "generated_at_utc": "2026-11-19T21:10:19+00:00",
+  "generated_at_jst": "2026-11-20T10:27:00+09:00",
+  "generated_at_utc": "2026-11-20T01:27:00+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
     "lon": 139.32
   },
-  "weather": {
-    "source": "open-meteo + JMA",
-    "daily": [
-      {
-        "date": "2026-11-20",
-        "wday": "金",
-        "tmax": 12.6,
-        "tmin": 4.8,
-        "pop": 6,
-        "code": 0,
-        "label": "快晴"
-      },
-      {
-        "date": "2026-11-21",
-        "wday": "土",
-        "tmax": 13.6,
-        "tmin": 3.4,
-        "pop": 4,
-        "code": 0,
-        "label": "快晴"
-      },
-      {
-        "date": "2026-11-22",
-        "wday": "日",
-        "tmax": 14.3,
-        "tmin": 3.7,
-        "pop": 8,
-        "code": 1,
-        "label": "晴れ"
-      },
-      {
-        "date": "2026-11-23",
-        "wday": "月",
-        "tmax": 12.0,
-        "tmin": -0.4,
-        "pop": 0,
-        "code": 3,
-        "label": "曇り"
-      },
-      {
-        "date": "2026-11-24",
-        "wday": "火",
-        "tmax": 16.3,
-        "tmin": 2.5,
-        "pop": 73,
-        "code": 61,
-        "label": "弱い雨"
-      },
-      {
-        "date": "2026-11-25",
-        "wday": "水",
-        "tmax": 12.0,
-        "tmin": 4.9,
-        "pop": 10,
-        "code": 51,
-        "label": "弱い霧雨"
-      },
-      {
-        "date": "2026-11-26",
-        "wday": "木",
-        "tmax": 13.3,
-        "tmin": 3.5,
-        "pop": 2,
-        "code": 3,
-        "label": "曇り"
-      }
-    ],
-    "jma_text_tokyo": [
-      {
-        "date": "2026-11-20",
-        "text": "晴れ"
-      },
-      {
-        "date": "2026-11-21",
-        "text": "晴れ"
-      }
-    ]
-  },
+  "weather": null,
   "markets": {
     "indices": [
       {
@@ -116,98 +39,100 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 6.51,
-          "prev_close": 6.82,
-          "change": -0.31,
-          "pct": -4.47
+          "price": 6.82,
+          "prev_close": 6.78,
+          "change": 0.04,
+          "pct": 0.59
         },
         {
           "ticker": "LUNR",
           "name": "Intuitive Machines",
-          "price": 9.78,
-          "prev_close": 10.12,
-          "change": -0.34,
-          "pct": -3.36
+          "price": 10.12,
+          "prev_close": 11.05,
+          "change": -0.93,
+          "pct": -8.37
         },
         {
           "ticker": "SPCX",
           "name": "SpaceX",
-          "price": 138.43,
-          "prev_close": 143.5,
-          "change": -5.07,
-          "pct": -3.53
+          "price": 143.5,
+          "prev_close": 141.7,
+          "change": 1.8,
+          "pct": 1.27
         },
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 22.01,
-          "prev_close": 23.62,
-          "change": -1.61,
-          "pct": -6.8
+          "price": 23.62,
+          "prev_close": 24.04,
+          "change": -0.42,
+          "pct": -1.75
         },
         {
           "ticker": "RKLB",
           "name": "Rocket Lab",
-          "price": 50.99,
-          "prev_close": 53.07,
-          "change": -2.08,
-          "pct": -3.92
+          "price": 53.07,
+          "prev_close": 55.05,
+          "change": -1.98,
+          "pct": -3.6
         },
         {
           "ticker": "ASTS",
           "name": "AST SpaceMobile",
-          "price": 25.55,
-          "prev_close": 25.49,
-          "change": 0.06,
-          "pct": 0.24
+          "price": 25.49,
+          "prev_close": 27.59,
+          "change": -2.1,
+          "pct": -7.61
         }
       ],
       "ai_semi": [
         {
           "ticker": "NVDA",
           "name": "NVIDIA",
-          "price": 145.98,
-          "prev_close": 150.96,
-          "change": -4.98,
-          "pct": -3.3
+          "price": 150.96,
+          "prev_close": 155.46,
+          "change": -4.5,
+          "pct": -2.89
         },
         {
           "ticker": "MU",
           "name": "Micron",
-          "price": 690.44,
-          "prev_close": 705.27,
-          "change": -14.83,
-          "pct": -2.1
+          "price": 705.27,
+          "prev_close": 712.42,
+          "change": -7.15,
+          "pct": -1.0
         },
         {
           "ticker": "AVGO",
           "name": "Broadcom",
-          "price": 346.65,
-          "prev_close": 354.05,
-          "change": -7.4,
-          "pct": -2.09
+          "price": 354.05,
+          "prev_close": 341.6,
+          "change": 12.45,
+          "pct": 3.64
         },
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 352.01,
-          "prev_close": 362.62,
-          "change": -10.61,
-          "pct": -2.93
+          "price": 362.62,
+          "prev_close": 359.69,
+          "change": 2.93,
+          "pct": 0.81
         }
       ],
       "robotics": [
         {
           "ticker": "AGLT",
           "name": "Agility Robotics",
-          "price": 6.49,
-          "prev_close": 6.85,
-          "change": -0.36,
-          "pct": -5.26
+          "price": 6.85,
+          "prev_close": 7.17,
+          "change": -0.32,
+          "pct": -4.46
         }
       ]
     },
     "movers": null
   },
-  "errors": []
+  "errors": [
+    "weather: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20)"
+  ]
 }
