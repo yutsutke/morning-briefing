@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-24T06:10:21+09:00",
-  "generated_at_utc": "2026-11-23T21:10:21+00:00",
+  "generated_at_jst": "2026-11-24T13:27:13+09:00",
+  "generated_at_utc": "2026-11-24T04:27:13+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -12,7 +12,7 @@
       {
         "date": "2026-11-24",
         "wday": "火",
-        "tmax": 17.6,
+        "tmax": 17.0,
         "tmin": 5.8,
         "pop": 100,
         "code": 63,
@@ -21,11 +21,11 @@
       {
         "date": "2026-11-25",
         "wday": "水",
-        "tmax": 11.7,
+        "tmax": 11.8,
         "tmin": 4.6,
-        "pop": 20,
-        "code": 1,
-        "label": "晴れ"
+        "pop": 33,
+        "code": 0,
+        "label": "快晴"
       },
       {
         "date": "2026-11-26",
@@ -40,28 +40,28 @@
         "date": "2026-11-27",
         "wday": "金",
         "tmax": 14.8,
-        "tmin": 3.3,
-        "pop": 0,
+        "tmin": 3.2,
+        "pop": 4,
         "code": 3,
         "label": "曇り"
       },
       {
         "date": "2026-11-28",
         "wday": "土",
-        "tmax": 15.2,
-        "tmin": 6.3,
-        "pop": 63,
-        "code": 80,
-        "label": "にわか雨"
+        "tmax": 14.3,
+        "tmin": 5.9,
+        "pop": 78,
+        "code": 55,
+        "label": "強い霧雨"
       },
       {
         "date": "2026-11-29",
         "wday": "日",
         "tmax": 13.3,
-        "tmin": 3.3,
-        "pop": 21,
-        "code": 51,
-        "label": "弱い霧雨"
+        "tmin": 4.3,
+        "pop": 24,
+        "code": 45,
+        "label": "霧"
       },
       {
         "date": "2026-11-30",
@@ -81,6 +81,10 @@
       {
         "date": "2026-11-25",
         "text": "晴れ"
+      },
+      {
+        "date": "2026-11-26",
+        "text": "晴れ時々くもり"
       }
     ]
   },
@@ -105,9 +109,9 @@
       {
         "ticker": "^DJI",
         "name": "ダウ工業株30種",
-        "price": 49595.31,
+        "price": 49595.3,
         "prev_close": 48147.33,
-        "change": 1447.98,
+        "change": 1447.97,
         "pct": 3.01
       }
     ],
@@ -140,10 +144,10 @@
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 19.68,
+          "price": 19.7,
           "prev_close": 18.74,
-          "change": 0.94,
-          "pct": 5.02
+          "change": 0.96,
+          "pct": 5.12
         },
         {
           "ticker": "RKLB",
@@ -190,10 +194,10 @@
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 363.43,
+          "price": 363.6,
           "prev_close": 318.71,
-          "change": 44.72,
-          "pct": 14.03
+          "change": 44.89,
+          "pct": 14.08
         }
       ],
       "robotics": [
