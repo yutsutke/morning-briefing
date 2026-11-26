@@ -1,6 +1,6 @@
 {
-  "generated_at_jst": "2026-11-26T06:10:22+09:00",
-  "generated_at_utc": "2026-11-25T21:10:22+00:00",
+  "generated_at_jst": "2026-11-26T11:28:48+09:00",
+  "generated_at_utc": "2026-11-26T02:28:48+00:00",
   "location": {
     "name": "八王子",
     "lat": 35.66,
@@ -13,7 +13,7 @@
         "date": "2026-11-26",
         "wday": "木",
         "tmax": 13.7,
-        "tmin": 4.2,
+        "tmin": 3.9,
         "pop": 0,
         "code": 2,
         "label": "晴れ時々曇り"
@@ -21,8 +21,8 @@
       {
         "date": "2026-11-27",
         "wday": "金",
-        "tmax": 16.6,
-        "tmin": 6.6,
+        "tmax": 15.4,
+        "tmin": 6.4,
         "pop": 3,
         "code": 3,
         "label": "曇り"
@@ -32,16 +32,16 @@
         "wday": "土",
         "tmax": 20.9,
         "tmin": 9.7,
-        "pop": 91,
+        "pop": 83,
         "code": 53,
         "label": "霧雨"
       },
       {
         "date": "2026-11-29",
         "wday": "日",
-        "tmax": 13.2,
-        "tmin": 3.2,
-        "pop": 14,
+        "tmax": 13.0,
+        "tmin": 3.3,
+        "pop": 20,
         "code": 45,
         "label": "霧"
       },
@@ -49,7 +49,7 @@
         "date": "2026-11-30",
         "wday": "月",
         "tmax": 12.5,
-        "tmin": 2.0,
+        "tmin": 2.1,
         "pop": 0,
         "code": 0,
         "label": "快晴"
@@ -57,8 +57,8 @@
       {
         "date": "2026-12-01",
         "wday": "火",
-        "tmax": 16.1,
-        "tmin": 2.4,
+        "tmax": 16.0,
+        "tmin": 2.1,
         "pop": 0,
         "code": 0,
         "label": "快晴"
@@ -68,7 +68,7 @@
         "wday": "水",
         "tmax": 16.6,
         "tmin": 4.6,
-        "pop": 4,
+        "pop": 0,
         "code": 2,
         "label": "晴れ時々曇り"
       }
@@ -81,6 +81,10 @@
       {
         "date": "2026-11-27",
         "text": "晴れ朝晩くもり"
+      },
+      {
+        "date": "2026-11-28",
+        "text": "くもり一時雨"
       }
     ]
   },
@@ -116,10 +120,10 @@
         {
           "ticker": "RDW",
           "name": "Redwire",
-          "price": 5.88,
+          "price": 5.89,
           "prev_close": 5.9,
-          "change": -0.02,
-          "pct": -0.34
+          "change": -0.01,
+          "pct": -0.17
         },
         {
           "ticker": "LUNR",
@@ -140,10 +144,10 @@
         {
           "ticker": "VOYG",
           "name": "Voyager Technologies",
-          "price": 18.27,
+          "price": 18.3,
           "prev_close": 17.88,
-          "change": 0.39,
-          "pct": 2.18
+          "change": 0.42,
+          "pct": 2.35
         },
         {
           "ticker": "RKLB",
@@ -190,10 +194,10 @@
         {
           "ticker": "TSM",
           "name": "TSMC",
-          "price": 342.17,
+          "price": 342.34,
           "prev_close": 349.2,
-          "change": -7.03,
-          "pct": -2.01
+          "change": -6.86,
+          "pct": -1.96
         }
       ],
       "robotics": [
